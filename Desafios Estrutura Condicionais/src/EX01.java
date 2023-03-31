@@ -14,10 +14,13 @@ public class EX01 {
         while (reiniciar.equals("s")){
             Scanner teclado = new Scanner(System.in);
             System.out.println("Você vai digitar 3 numeros inteiros para descobrir qual deles é o maior.");
+
             System.out.print("Digite o primeiro numero: ");
             num1 = teclado.nextInt();
+
             System.out.print("Digite o segundo numero: ");
             num2 = teclado.nextInt();
+
             System.out.print("Digite o terceiro numero: ");
             num3 = teclado.nextInt();
 
