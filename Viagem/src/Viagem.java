@@ -5,8 +5,7 @@ public class Viagem {
         /**********************************************
          *  Criando os objetos a partir da classe Carro *
          *********************************************/
-            Carro carro1 = new Carro();
-            carro1 = Viajar(new Carro(), 1);
+            Carro carro1 = Viajar(new Carro(), 1);
 
             Carro carro2 = new Carro();
             carro2 = Viajar(new Carro(), 2);
@@ -61,10 +60,14 @@ public class Viagem {
       *********************************************/
         public static void ApresentarInformacoes(Carro carro){
             System.out.println("******************************************************");
-            System.out.println("Apresentar informações do carro " + carro.getIdCarro());
+            System.out.println("Apresentando informações do carro " + carro.getIdCarro());
             System.out.println("Marca: " + carro.getMarca() + " Modelo: " + carro.getModelo() +
                     " Nova quilometragem: " + carro.getQuilometragem());
-
+            System.out.println(
+                    carro.getQuilometragem()<=1000 ? "Carro com manutenção em dia" :
+                            (carro.getQuilometragem()>1000) && (carro.getQuilometragem()<=3000) ? "Fazer primeira revisão." :
+                                (carro.getQuilometragem()>3000) && (carro.getQuilometragem()<=5000) ? "Fazer a segunda revisão.":
+                                    "Pecisa trocar o óleo.");
             
 
         }
