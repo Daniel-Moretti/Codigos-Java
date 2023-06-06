@@ -1,6 +1,6 @@
 public class Conta {
     private int codigo;
-    private String numero;
+    private Integer numeroConta;
     private String nomeCliente;
     private float saldo;
 
@@ -12,12 +12,12 @@ public class Conta {
         this.codigo = codigo;
     }
 
-    public String getNumero() {
-        return numero;
+    public Integer getNumeroConta() {
+        return numeroConta;
     }
 
-    public void setNumeroConta(String numero) {
-        this.numero = numero;
+    public void setNumeroConta(Integer numeroConta) {
+        this.numeroConta = numeroConta;
     }
 
     public String getNomeCliente() {

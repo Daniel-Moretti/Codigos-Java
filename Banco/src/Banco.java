@@ -42,7 +42,7 @@ public class Banco {
         }
 
 
-        public static Conta CadastrarConta(List<conta> conta) {
+        public static List CadastrarConta(List<conta> conta) {
             Conta cadastrar = new Conta();
             System.out.println("Código: ");
             cadastrar.setCodigo(teclado.nextInt());
