@@ -5,10 +5,11 @@ import java.util.Scanner;
 public class Banco {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
-        float valor;
+
         int opcao = 0;
 
-        List<Conta> conta = new ArrayList<>();
+        ArrayList<Conta> listConta = new ArrayList<>();
+        Conta conta;
 
         while (opcao != 10) {
             System.out.println("""
@@ -17,51 +18,107 @@ public class Banco {
                 2- Sacar.
                 3- Depositar.
                 4- Mostrar Saldo.
-                5- Sair.
+                5- Relatorio das Contas Cadastradas
+                6- Sair.
                 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$""");
             System.out.print("Digite a opção desejada: ");
             opcao = teclado.nextInt();
 
             switch (opcao) {
-                case 1 :
-                    Conta cadastrar = new Conta();
-                    cadastrar = CadastrarConta(conta);
-
-                    break;
-                case 2 :
-                    break;
-                case 3 :
-                    break;
-                case 4 :
-                    break;
-                case 5 :
-                    opcao = 10;
-                    break;
+                case 1 -> {
+                    conta = CadastrarConta(listConta.size() + 1);
+                    listConta.add(conta);
+                }
+                //conta = new Conta();
+                case 2 -> Sacar(listConta, teclado);
+                case 3 -> Depositar(listConta, teclado);
+                case 4 -> MostrarSaldo(listConta, teclado);
+                case 5 -> RelatorioContas(listConta);
+                case 6 -> opcao = 10;
+                default -> System.out.println("Opção incorreta.");
             }
 
         }
 
 
-        public static List CadastrarConta(List<conta> conta) {
-            Conta cadastrar = new Conta();
-            System.out.println("Código: ");
-            cadastrar.setCodigo(teclado.nextInt());
-            System.out.println("Numero Conta: ");
-            cadastrar.setNumeroConta(teclado.next());
-            System.out.println("Nome Cliente: ");
-            cadastrar.setNomeCliente(teclado.next());
-            System.out.println("Saldo incial: ");
-            cadastrar.setSaldo(teclado.nextFloat());
-            conta.add(cadastrar);
-            return;
+
+    }
+
+    public static Conta CadastrarConta(int id){
+        Scanner teclado = new Scanner(System.in);
+        Conta conta = new Conta();
+
+        System.out.println("Código: " + id);
+        conta.setCodigo(id);
+
+        System.out.print("Numero Conta: ");
+        conta.setNumeroConta(teclado.nextInt());
+
+        System.out.print("Nome Cliente: ");
+        conta.setNomeCliente(teclado.next());
+
+        System.out.print("Saldo Incial: ");
+        conta.setSaldo(teclado.nextFloat());
+
+        return conta;
+    }
+
+    public static void RelatorioContas(List<Conta> listConta){
+        Conta conta = new Conta();
+
+        for (int i=0; listConta.size() > i; i++){
+            conta = listConta.get(i);
+            System.out.println("************************************");
+            System.out.println("Informações da conta: " + conta.getNumeroConta());
+            System.out.println("Nome: " + conta.getNomeCliente() + " Saldo: " + conta.getSaldo());
         }
 
-        for (int i = 0; i<conta.size(); i++) {
-            Conta cc = conta.get(i);
-            System.out.println(cc.getNomeCliente());
+    }
+
+    public static void Sacar(List<Conta> listConta, Scanner teclado){
+        Conta conta = new Conta();
+        System.out.print("Digite o numero da conta que deseja sacar: ");
+        Integer numConta = teclado.nextInt();
+
+        for (int i=0; listConta.size() > i; i++){
+            conta = listConta.get(i);
+            if (conta.getNumeroConta().equals(numConta)){
+                System.out.print("Valor do saque: ");
+                conta.Sacar(teclado.nextFloat());
+            } else {
+                System.out.println("Conta não encontrada.");
+            }
         }
+    }
 
+    public static void Depositar(List<Conta> listConta, Scanner teclado){
+        Conta conta = new Conta();
+        System.out.print("Digite o numero da conta que deseja depositar: ");
+        Integer numConta = teclado.nextInt();
 
+        for (int i=0; listConta.size() > i; i++){
+            conta = listConta.get(i);
+            if (conta.getNumeroConta().equals(numConta)){
+                System.out.print("Valor do depósito: ");
+                conta.Depositar(teclado.nextFloat());
+            } else {
+                System.out.println("Conta não encontrada.");
+            }
+        }
+    }
+
+    public static void MostrarSaldo(List<Conta> listConta, Scanner teclado){
+        Conta conta = new Conta();
+        System.out.print("Digite o numero da conta que deseja visualizar o saldo: ");
+        Integer numConta = teclado.nextInt();
+
+        for (int i=0; listConta.size() > i; i++){
+            conta = listConta.get(i);
+            if (conta.getNumeroConta().equals(numConta)){
+                System.out.println("Saldo da conta: " + conta.getSaldo() + "\n\n");
+
+            }
+        }
     }
 
 
