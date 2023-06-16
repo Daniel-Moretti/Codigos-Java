@@ -69,8 +69,10 @@ public class Banco {
         for (int i=0; listConta.size() > i; i++){
             conta = listConta.get(i);
             System.out.println("************************************");
-            System.out.println("Informações da conta: " + conta.getNumeroConta());
-            System.out.println("Nome: " + conta.getNomeCliente() + " Saldo: " + conta.getSaldo());
+            System.out.println("Informações da conta.");
+            System.out.println("Número da conta: " + conta.getNumeroConta());
+            System.out.println("Nome Cliente: " + conta.getNomeCliente());
+            System.out.println("Saldo: R$ " + conta.getSaldo());
         }
 
     }
