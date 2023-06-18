@@ -78,17 +78,17 @@ public class Principal {
          * Apresentar Informações *
          **************************/
 
-        System.out.println("************ Informações do professor ************");
+        System.out.println("\n************ Informações do professor ************");
         System.out.println("Código: " + professor.getId() + "\nNome: " + professor.getNome() + "\nRG: " + professor.getRg());
-        System.out.println("\nData de nascimento: " + professor.getDataNascimento() + "\nDisciplina: " + professor.getDisciplina() + "\nSalário: R$ " + professor.getSalario());
+        System.out.println("\nData de nascimento: " + dateString(professor.getDataNascimento()) + "\nDisciplina: " + professor.getDisciplina() + "\nSalário: R$ " + professor.getSalario());
 
-        System.out.println("************ Informações do aluno ************");
+        System.out.println("\n************ Informações do aluno ************");
         System.out.println("Código: " + aluno.getId() + "\nNome: " + aluno.getNome() + "\nRG: " + aluno.getRg());
-        System.out.println("\nData de nascimento: " + aluno.getDataNascimento() + "\nMatrícula: " + aluno.getMatricula());
+        System.out.println("\nData de nascimento: " + dateString(aluno.getDataNascimento()) + "\nMatrícula: " + aluno.getMatricula());
 
-        System.out.println("************ Informações do funcionário ************");
+        System.out.println("\n************ Informações do funcionário ************");
         System.out.println("Código: " + funcionario.getId() + "\nNome: " + funcionario.getNome() + "\nRG: " + funcionario.getRg());
-        System.out.println("\nData de nascimento: " + funcionario.getDataNascimento() + "\nCargo: " + funcionario.getCargo() + "\nSalário: R$ " + funcionario.getSalario());
+        System.out.println("\nData de nascimento: " + dateString(funcionario.getDataNascimento()) + "\nCargo: " + funcionario.getCargo() + "\nSalário: R$ " + funcionario.getSalario());
 
 
 
@@ -97,8 +97,21 @@ public class Principal {
     public static Date formataData(String data) {
         Date dataRetorno = new Date();
         try {
-            DateFormat dataFormatada = new SimpleDateFormat("dd/mm/yyy");
+            DateFormat dataFormatada = new SimpleDateFormat("dd/MM/yyy");
             dataRetorno = dataFormatada.parse(data);
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
+
+        return dataRetorno;
+
+    }
+
+    public static String dateString(Date data) {
+        String dataRetorno = "";
+        try {
+            DateFormat dataFormatada = new SimpleDateFormat("dd/MM/yyy");
+            dataRetorno = dataFormatada.format(data);
         } catch (Exception ex) {
             ex.printStackTrace();
         }
