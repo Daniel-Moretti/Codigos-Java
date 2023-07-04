@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd218a7c-6d3e-434c-85f5-603962eabc8d" name="Changes" comment="">
+    <list default="true" id="e8aa1322-a9a0-40e1-b421-0ce32a905ed6" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../Clube/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Clube/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Clube/.idea/modules.xml" afterDir="false" />
@@ -15,9 +15,9 @@
       <change afterPath="$PROJECT_DIR$/../Clube/src/SocioBronze.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Clube/src/SocioOuro.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Clube/src/SocioPrata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Netflix/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Netflix/src/Plano.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Netflix/src/Plano1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Plano.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Plano1.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Produtos/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Produtos/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Produtos/.idea/modules.xml" afterDir="false" />
@@ -28,7 +28,7 @@
       <change afterPath="$PROJECT_DIR$/../Produtos/src/ProdutoRevenda.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Produtos/src/Produtos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PolimorfismoEx1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PolimorfismoEx1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PolimorfismoEx2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PolimorfismoEx2/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +45,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="2RaKEF80euiCOgtt9Jr8dYkZeic" />
+  <component name="ProjectId" id="2RuAOalgI8LMaxAytBLPeh6uRM3" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -53,22 +53,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Projetos/Codigos-Java/PolimorfismoEx2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "preferences.general"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fd218a7c-6d3e-434c-85f5-603962eabc8d" name="Changes" comment="" />
-      <created>1687482640750</created>
+      <changelist id="e8aa1322-a9a0-40e1-b421-0ce32a905ed6" name="Changes" comment="" />
+      <created>1688089563914</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1687482640750</updated>
+      <updated>1688089563914</updated>
     </task>
     <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

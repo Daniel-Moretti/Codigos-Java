@@ -5,32 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a62d5f1-4d2e-4b53-82fc-8bc0b4a6c2dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/Codigos-Java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polimorfismo/Polimorfismo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polimorfismo/src/Cachorro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polimorfismo/src/Gato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polimorfismo/src/Homem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polimorfismo/src/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polimorfismo/src/SerVivo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Figura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PolimorfismoEx2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PolimorfismoEx2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PolimorfismoEx2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PolimorfismoEx2/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PolimorfismoEx2/PolimorfismoEx2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PolimorfismoEx2/src/Automovel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PolimorfismoEx2/src/Caminhao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PolimorfismoEx2/src/Carro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PolimorfismoEx2/src/Moto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PolimorfismoEx2/src/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clube/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clube/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clube/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clube/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clube/Clube.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clube/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clube/src/Socio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +44,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "D:/Projetos/Codigos-Java/PolimorfismoEx1",
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
