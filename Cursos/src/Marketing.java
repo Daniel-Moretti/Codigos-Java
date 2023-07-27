@@ -1,2 +1,9 @@
-package PACKAGE_NAME;public class Marketing {
+public class Marketing extends Cursos{
+
+
+    @Override
+    public double CalcularMensalidade() {
+        return super.getValorPadraoCurso() * 1.5;
+
+    }
 }

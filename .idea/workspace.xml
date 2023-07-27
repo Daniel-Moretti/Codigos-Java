@@ -1,12 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="eeb8452f-5e09-4450-97cb-dc8786eaa34c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Polimorfismo/src/Cachorro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Polimorfismo/src/Gato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Polimorfismo/src/Homem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Polimorfismo/src/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Polimorfismo/src/SerVivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cursos/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cursos/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cursos/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cursos/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cursos/Cursos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cursos/src/Cursos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cursos/src/Direito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cursos/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cursos/src/Marketing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cursos/src/Sistemas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Heranca/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Heranca/Heranca.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Heranca/src/Caminhonete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Heranca/src/Motocicleta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Heranca/src/TestarHeranca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Heranca/src/Veiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netflix/src/Plano2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PolimorfismoProva/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PolimorfismoProva/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PolimorfismoProva/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PolimorfismoProva/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PolimorfismoProva/PolimorfismoProva.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PolimorfismoProva/src/Literatura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PolimorfismoProva/src/Livro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PolimorfismoProva/src/Romance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PolimorfismoProva/src/TestarPolimorfismo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix/src/Plano.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix/src/Plano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix/src/Plano1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix/src/Plano1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PolimorfismoEx1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PolimorfismoEx1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PolimorfismoEx2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PolimorfismoEx2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Produtos/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Produtos/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +58,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Projetos/Codigos-Java"
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/Projetos/Codigos-Java/Heranca",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -38,7 +78,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687477609640</updated>
+      <workItem from="1690332123599" duration="704000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

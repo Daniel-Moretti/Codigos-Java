@@ -28,5 +28,5 @@ public abstract class Plano {
         this.vlrPadrao = vlrPadrao;
     }
 
-    public abstract void CalcularMensalidade();
+    public abstract double CalcularMensalidade();
 }

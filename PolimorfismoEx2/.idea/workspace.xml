@@ -5,30 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd218a7c-6d3e-434c-85f5-603962eabc8d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Clube/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clube/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clube/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clube/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clube/Clube.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clube/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clube/src/Socio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clube/src/SocioBronze.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clube/src/SocioOuro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clube/src/SocioPrata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Netflix/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Netflix/src/Plano.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Netflix/src/Plano1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Produtos/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Produtos/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Produtos/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Produtos/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Produtos/Produtos.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Produtos/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Produtos/src/ProdutoIndustria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Produtos/src/ProdutoRevenda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Produtos/src/Produtos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cursos/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cursos/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cursos/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cursos/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cursos/Cursos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cursos/src/Cursos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cursos/src/Direito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cursos/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cursos/src/Marketing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cursos/src/Sistemas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Netflix/src/Plano2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Netflix/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Netflix/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Netflix/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Netflix/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Netflix/src/Plano.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Netflix/src/Plano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Netflix/src/Plano1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Netflix/src/Plano1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PolimorfismoEx1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PolimorfismoEx1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Produtos/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Produtos/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +47,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Projetos/Codigos-Java/PolimorfismoEx2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Projetos/Codigos-Java/PolimorfismoEx1"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
