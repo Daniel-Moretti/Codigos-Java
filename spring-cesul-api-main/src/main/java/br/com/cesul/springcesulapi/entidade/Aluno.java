@@ -3,17 +3,20 @@ package br.com.cesul.springcesulapi.entidade;
 import jakarta.persistence.*;
 
 @Entity
+@Table(name = "aluno")
+public class Aluno {
 
-@Table(name = "professor")
-public class Professor {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-
     private Integer id;
 
     private String nome;
 
-    public Professor() {
+    private String email;
+
+    private String cpf;
+
+    public Aluno() {
     }
 
     public Integer getId() {
@@ -30,5 +33,21 @@ public class Professor {
 
     public void setNome(String nome) {
         this.nome = nome;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
     }
 }
